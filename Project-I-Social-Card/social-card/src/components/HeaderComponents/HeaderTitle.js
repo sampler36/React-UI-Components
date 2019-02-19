@@ -1,16 +1,14 @@
 import React from 'react';
 import './Header.css';
 
-const HeaderText = () => {
+const HeaderTitle = () => {
   return (
     <div>
-      <p>
-        Let's learn React by building simple interfaces with components. Don't try 
-        to overthink it, just keep it simple and have fun. Once you feel comfortable using components
-        you are well on your way to mastering React!
-      </p>
+      <span className="title-primary">Lambda School</span>
+      <span className="title-secondary"> @LambdaSchool</span>
+      <span className="title-secondary"> ·18 Feb </span>
     </div>
   );
 }
 
-export default HeaderText;
+export default HeaderTitle;
