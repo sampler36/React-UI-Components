@@ -3,7 +3,10 @@ import './App.css';
 
 const App = () => {
   return (
+
     <div>
+      <HeaderContainer />
+      <CardContainer />
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
