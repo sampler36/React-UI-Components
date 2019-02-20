@@ -1,0 +1,8 @@
+.calculator-display{
+    width: 100%;
+    text-align: right;
+    background-color: #656262;
+    color: white;
+    font-size:40px; 
+  }
+  
